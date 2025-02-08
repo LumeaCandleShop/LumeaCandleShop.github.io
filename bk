@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candle Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to our Candle Shop</h1>
+            <p>High-quality candles for a cozy atmosphere</p>
+            <button>Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Feature Product Section -->
+    <section id="feature-product">
+        <div class="container">
+            <h2>Feature Product</h2>
+            <div class="product-container">
+                <img src="product-image.jpg" alt="Product Image">
+                <h3>Product Name</h3>
+                <p>Product Description</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Specification Highlight Section -->
+    <section id="product-specification">
+        <div class="container">
+            <h2>Product Specification</h2>
+            <div class="specification-container">
+                <div class="specification-item">
+                    <img src="soy-wax-icon.png" alt="Soy Wax Icon">
+                    <h3>Soy Wax</h3>
+                    <p>Our candles are made from high-quality soy wax</p>
+                </div>
+                <div class="specification-item">
+                    <img src="high-quality-icon.png" alt="High Quality Icon">
+                    <h3>High Quality</h3>
+                    <p>We use only the best materials for our candles</p>
+                </div>
+                <div class="specification-item">
+                    <img src="organic-icon.png" alt="Organic Icon">
+                    <h3>Organic</h3>
+                    <p>Our candles are made from organic ingredients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Where to Use Section -->
+    <section id="where-to-use">
+        <div class="container">
+            <h2>Where to Use</h2>
+            <div class="infographic-container">
+                <img src="infographic-image.jpg" alt="Infographic Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a small candle shop dedicated to providing high-quality candles for a cozy atmosphere</p>
+        </div>
+    </section>
+
+    <!-- Question Section -->
+    <section id="question">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="question-container">
+                <div class="question-item">
+                    <h3>What is the material used for the candles?</h3>
+                    <p>Our candles are made from high-quality soy wax</p>
+                </div>
+                <div class="question-item">
+                    <h3>Are the candles organic?</h3>
+                    <p>Yes, our candles are made from organic ingredients</p>
+                </div>
+                <div class="question-item">
+                    <h3>How do I care for my candle?</h3>
+                    <p>Please refer to our care instructions page for more information</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2023 Candle Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
